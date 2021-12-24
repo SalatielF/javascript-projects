@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Javascript</title>
+		<script>
+
+			function acao1() {
+				alert('Elemento clicado')
+			}
+
+			function acao2() {
+				alert('O Cursor do mouse deixou a região do elemento')
+			}
+
+		</script>
+
+	</head>
+
+	<body>	
+
+		<div onclick="acao1()" onmouseout="acao2()" style="background: #ccc; height: 150px; width: 150px;"></div><br>
+		
+		<div onclick="acao1()" style="background: #ccc; height: 150px; width: 150px;"></div><br>
+
+		<div ondblclick="acao1()" style="background: #ccc; height: 150px; width: 150px;"></div><br>
+
+		<div onmouseup="acao1()" style="background: #ccc; height: 150px; width: 150px;"></div><br>
+
+		<div onmouseover="acao1()" style="background: #ccc; height: 150px; width: 150px;"></div><br>
+
+		<div onmouseout="acao2()" style="background: #ccc; height: 150px; width: 150px;"></div>
+			
+	</body>
+</html>
